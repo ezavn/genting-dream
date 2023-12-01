@@ -459,8 +459,9 @@
 
   .sc-about {
     .heading {
-      font-size: 24px;
+      font-size: 20px;
       margin-bottom: 30px;
+      text-align: justify;
     }
 
     .info {
@@ -472,6 +473,25 @@
         text-align: justify;
       }
     }
+  }
+
+  .sc-tour {
+    .sup {
+      color: #fff;
+      font-size: 16px;
+      span {
+        font-size: 20px;
+        color: #e5bf83;
+      }
+    }
+    .main {
+      color: #e5bf83;
+      font-size: 40px;
+    }
+  }
+
+  .tour-item {
+    min-height: 197px;
   }
 }
 

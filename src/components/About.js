@@ -29,7 +29,7 @@ export default function About() {
 
   return (
     <section className="overflow-hidden sc-about md:py-section py-sectionMB">
-      <div className="max-w-[1400px] lg:mx-auto">
+      <div className="max-w-[1400px] lg:mx-auto px-[15px]">
         <h2 className="heading">Những con số ấn tượng của Genting Dream</h2>
         <div className="hidden lg:grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-[50px] max-w-[1210px] lg:mx-auto">
           <NumItem
@@ -49,12 +49,12 @@ export default function About() {
           ></NumItem>
           <NumItem
             icon="/images/genting-about-icon4.png"
-            title="19"
+            title="18"
             desc="Tầng"
           ></NumItem>
           <NumItem
             icon="/images/genting-about-icon5.png"
-            title="Sức chứa"
+            title="3,352"
             desc="(hành khách)"
           ></NumItem>
           <NumItem
@@ -107,7 +107,7 @@ export default function About() {
             ></NumItem>
           </Slider>
         </div>
-        <div className="mt-[20px]">
+        <div className="mt-[20px] md:-mb-0 mb-[30px]">
           <img
             className="w-full"
             srcSet="/images/genting-about-ship.png 2x"
@@ -118,7 +118,7 @@ export default function About() {
       <div className="page-container">
         <h2 className="heading">
           Tại sao nên lựa chọn nghỉ dưỡng trên du thuyền{" "}
-          <br className="hidden md:block" />
+          <br className="hidden lg:block" />
           <span>GENTING DREAM?</span>
         </h2>
         <div className="destination">
@@ -142,11 +142,9 @@ export default function About() {
               title="Tháp Đôi"
               desc="(Twin Towers)"
             ></AboutItem>
-            <AboutItem
-              img="/images/genting-des4.png"
-              title="Cung điện Hoàng gia"
-              desc="(Royal Palace)"
-            ></AboutItem>
+            <AboutItem img="/images/genting-des4.png" desc="(Royal Palace)">
+              Cung điện <br className="block md:hidden" /> Hoàng gia
+            </AboutItem>
           </AboutGrid>
         </div>
         <div className="area">
@@ -155,15 +153,14 @@ export default function About() {
             <p className="desc">
               Genting Dream sở hữu 19 tầng được thiết kế hiện đại với không gian
               sang trọng được bố trí riêng biệt{" "}
-              <br className="hidden md:block" /> theo từng khu vực phân định,
+              <br className="hidden lg:block" /> theo từng khu vực phân định,
               phù hợp với cả người lớn và trẻ nhỏ.
             </p>
           </div>
           <AboutGrid>
-            <AboutItem
-              img="/images/genting-area1.png"
-              title="Khu mua sắm miễn thuế"
-            ></AboutItem>
+            <AboutItem img="/images/genting-area1.png">
+              Khu mua sắm <br className="block md:hidden" /> miễn thuế
+            </AboutItem>
             <AboutItem
               img="/images/genting-area2.png"
               title="Nhà hát Zodiac"
@@ -184,10 +181,10 @@ export default function About() {
             <h5 className="title">Khu vui chơi, giải trí đẳng cấp</h5>
             <p className="desc">
               Du thuyền sở hữu hệ thống tiện ích hàng đầu với quy mô tựa như một
-              thành phố nổi, <br className="hidden md:block" />
+              thành phố nổi, <br className="hidden lg:block" />
               hứa hẹn mang đến cho du khách những hải trình tuyệt vời với nhiều
               tiện ích hấp dẫn như Quầy bar 360 độ, Câu lạc bộ bãi biển Zouk,{" "}
-              <br className="hidden md:block" />
+              <br className="hidden lg:block" />
               Hệ thống 35 nhà hàng ẩm thực, Khu mua sắm miễn thuế,...
             </p>
           </div>
@@ -212,7 +209,7 @@ export default function About() {
         </div>
       </div>
       <div>
-        <div className="max-w-[1600px] mx-auto px-[15px]">
+        <div className="max-w-[1600px] md:mx-auto px-[15px]">
           <div className="info">
             <h5 className="title">
               Hệ thống phòng nghỉ đa dạng với <span>8 loại phòng</span> khác
@@ -222,52 +219,52 @@ export default function About() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-[15px] gap-y-[30px]">
             <RoomItem
               img="/images/genting-room1.png"
-              title="BIỆT THỰ CUNG ĐIỆN"
-              desc="(PALACE VILLA)"
+              title="PALACE VILLA"
+              // desc="(PALACE VILLA)"
               onClick={() => setShowVideo("/images/video1.jpg")}
             ></RoomItem>
             <RoomItem
               img="/images/genting-room2.png"
-              title="CĂN HỘ CUNG ĐIỆN"
-              desc="(PALACE PENTHOUSE)"
+              title="PALACE PENTHOUSE"
+              // desc="(PALACE PENTHOUSE)"
               onClick={() => setShowVideo("/images/video2.jpg")}
             ></RoomItem>
             <RoomItem
               img="/images/genting-room3.png"
-              title="PHÒNG SUITE CUNG ĐIỆN SANG TRỌNG"
-              desc="(PALACE DELUXE SUITE)"
+              title="PALACE DELUXE SUITE"
+              // desc="(PALACE DELUXE SUITE)"
               onClick={() => setShowVideo("/images/video3.jpg")}
             ></RoomItem>
             <RoomItem
               img="/images/genting-room4.png"
-              title="PHÒNG SUITE CUNG ĐIỆN"
-              desc="(PALACE SUITE)"
+              title="PALACE SUITE"
+              // desc="(PALACE SUITE)"
               onClick={() => setShowVideo("/images/video4.jpg")}
             ></RoomItem>
             <RoomItem
               img="/images/genting-room5.png"
-              title="PHÒNG CÓ BAN CÔNG SANG TRỌNG"
-              desc="(BALCONY DELUXE)"
+              title="BALCONY DELUXE"
+              // desc="(BALCONY DELUXE)"
               noView
               // onClick={() => setShowVideo("/images/video5.jpg")}
             ></RoomItem>
             <RoomItem
               img="/images/genting-room6.png"
-              title="PHÒNG CÓ BAN CÔNG"
-              desc="(BALCONY)"
+              title="BALCONY"
+              // desc="(BALCONY)"
               onClick={() => setShowVideo("/images/video6.jpg")}
             ></RoomItem>
             <RoomItem
               img="/images/genting-room7.png"
-              title="PHÒNG HƯỚNG RA BIỂN"
-              desc="(OCEAN VIEW)"
+              title="OCEAN VIEW"
+              // desc="(OCEAN VIEW)"
               noView
               // onClick={() => setShowVideo("/images/video7.jpg")}
             ></RoomItem>
             <RoomItem
               img="/images/genting-room8.png"
-              title="PHÒNG TIÊU CHUẨN"
-              desc="(INTERIOR)"
+              title="INTERIOR"
+              // desc="(INTERIOR)"
               onClick={() => setShowVideo("/images/video8.jpg")}
             ></RoomItem>
           </div>

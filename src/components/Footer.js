@@ -13,7 +13,7 @@ export default function Footer() {
           <h5>Thông tin liên hệ</h5>
           <ul>
             <li>
-              <span>Địa chỉ:</span> 29 Nguyễn Trãi, P Bến Thành, Q 1, TPHCM
+              <span>Địa chỉ:</span> 82 Phan Đình Phùng, P.2, Q.Phú Nhuận, TP.HCM
             </li>
             <li>
               <span>Email:</span> info@goldenstartravel.vn
@@ -43,7 +43,7 @@ export default function Footer() {
               <a href="tel:0937196899">0937.19.68.99</a>
             </li>
             <li>
-              <span>Ms. Yến:</span> <a href="tel:0943560900">0943.560.900</a>
+              <span>Ms. Thịnh:</span> <a href="tel:0931867139">0931.867.139</a>
             </li>
           </ul>
         </div>

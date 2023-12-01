@@ -17,9 +17,9 @@ export default function Tour2() {
           </p>
           <p className="main --second">4 NGÀY 3 ĐÊM</p>
         </div>
-        <a className="btn">14,990,000 VNĐ</a>
+        {/* <a className="btn">14,990,000 VNĐ</a> */}
       </div>
-      <div className="max-w-[1600px] mx-auto px-[15px] grid grid-cols-1 lg:grid-cols-4 gap-[17px]">
+      <div className="max-w-[1600px] md:mx-auto px-[15px] grid grid-cols-1 lg:grid-cols-4 gap-[17px]">
         <TourItem
           img="/images/tour2-1.png"
           day="NGÀY 1"
@@ -59,7 +59,7 @@ export default function Tour2() {
 
 const TourItem = ({ img, day, title, desc, num, onClick }) => {
   return (
-    <div className="flex bg-white rounded-[30px]">
+    <div className="flex bg-white rounded-[30px] tour-item">
       <div className="w-[150px] md:w-[230px] lg:w-[120px] flex-shrink-0">
         <img
           className="rounded-l-[30px] w-full h-full object-cover"

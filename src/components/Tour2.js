@@ -31,16 +31,16 @@ export default function Tour2() {
         <TourItem
           img="/images/tour2-2.png"
           day="NGÀY 2"
-          title="MALAYSIA - SINGAPORE"
-          desc="(Ăn ba bữa trên du thuyền)"
+          title="SINGAPORE - CHECK IN DU THUYỀN"
+          desc="(Ăn sáng, trưa & tối)"
           num="2"
           onClick={() => setShowTour2Day2(true)}
         ></TourItem>
         <TourItem
           img="/images/tour2-3.png"
           day="NGÀY 3"
-          title="SINGAPORE - KUALA LUMPUR"
-          desc="(Ăn sáng trên du thuyền, ăn trưa & ăn tối tại Kuala Lumpur)"
+          title="SINGAPORE - MALAYSIA"
+          desc="(Ăn trưa & ăn tối)"
           num="3"
           onClick={() => setShowTour2Day3(true)}
         ></TourItem>

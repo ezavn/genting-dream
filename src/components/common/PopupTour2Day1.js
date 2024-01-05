@@ -38,7 +38,7 @@ export default function PopupTour2Day1() {
                       HỒ CHÍ MINH - SINGAPORE
                       </p>
                       <p className="text-[12px] italic">
-                        (Ăn sáng & ăn trưa)
+                        (Ăn trưa & ăn tối)
                       </p>
                     </div>
                   </div>

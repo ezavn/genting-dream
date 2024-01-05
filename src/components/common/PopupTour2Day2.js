@@ -10,7 +10,7 @@ export default function PopupTour2Day2() {
           <div className="max-w-[1022px] w-full relative mb-[50px] top-[20px] left-0 md:left-[50%] md:translate-x-[-50%] popup-days --two">
             <div className="bg-red p-[16px] flex items-center justify-between">
               <p className="text-[12px] md:text-[15px] font-bold text-white">
-                NGÀY 2: Malaysia - Singapore
+                NGÀY 2: SINGAPORE - CHECK IN DU THUYỀN
               </p>
               <span
                 onClick={() => setShowTour2Day2(false)}
@@ -35,86 +35,52 @@ export default function PopupTour2Day2() {
                     </div>
                     <div>
                       <p className="text-[12px] md:text-[20px] text-grey3F font-bold">
-                        MALAYSIA - SINGAPORE
+                      SINGAPORE - CHECK IN DU THUYỀN
                       </p>
                       <p className="text-[12px] italic">
-                        ((Ăn ba bữa trên du thuyền)
+                      (Ăn sáng, trưa & tối)
                       </p>
                     </div>
                   </div>
-                  <ol className="text-grey3F text-[12px] md:text-[16px]">
-                    <li className="pl-[20px] pb-[16px] mb-[16px] border-b-[3px] border-dotted border-[#f1f1f1]">
-                      <p>Sáng: Quý khách dùng bữa sáng trên du thuyền.</p>
-                    </li>
-                    <li className="pl-[20px] pb-[16px] mb-[16px] border-b-[3px] border-dotted border-[#f1f1f1]">
-                      <p>
-                        Quý khách có thể tự do tận hưởng một ngày sôi động với
-                        các hoạt động giải trí trên du thuyền:
-                      </p>
-                      <p>
-                        <strong>+ CÔNG VIÊN NƯỚC TRÊN BIỂN:</strong> Công viên
-                        nước trên đại dương với 6 đường trượt phù hợp cho gia
-                        đình và cả những người ưa mạo hiểm với niềm vui bất tận.
-                        Bên cạnh đó quý khách cũng có thể tham gia các trò chơi
-                        giải trí đặc biệt như zipline đặc biệt, sân Mini-golf,
-                        leo núi nhân tạo, bowling…{" "}
-                      </p>
-                      <p>
-                        <strong>+ NHIỀU LỰA CHỌN ẨM THỰC:</strong> tổng cộng 35
-                        nhà hàng và bar ngay cả những yêu cầu về ẩm thực đặc
-                        biệt như đồ chay, đồ Ấn Độ. Du thuyền phục vụ ẩm thực
-                        Trung Quốc, Nhật Bản, Hàn Quốc, các món ăn Đông Nam Á,
-                        đồ u và rất nhiều loại đồ uống tuyệt vời dành cho những
-                        người đam mê ẩm thực.
-                      </p>
-                      <p>
-                        <strong>+ SPA TRỊ LIỆU VÀ THƯ GIÃN TRÊN BIỂN:</strong>{" "}
-                        kết hợp các kỹ thuật truyền thống của Trung Quốc và bấm
-                        huyệt trị liệu. Quý khách sẽ được thư giãn đặc biệt
-                        trong khi nhấm nháp trái cây tươi, thưởng thức giải trí
-                        trên một chiếc iPad cá nhân, hoặc đơn giản là chìm đắm
-                        vào sự hồi sinh hạnh phúc.
-                      </p>
-                      <p>Quý khách dùng bữa trưa trên Du Thuyền.</p>
-                      <p>Sau đó xuống Singapore khởi hành tham quan:</p>
-                      <p>
-                        <strong>+ Công viên sư tử biển (Merlion Park)</strong> -
-                        đây là biểu tượng của đất nước Singapore.
-                      </p>
-                      <strong>+ Tòa nhà Quốc Hội (Parliament House).</strong>
-                      <p>
-                        <strong>+ Nhà hát Victoria</strong> – nhà hát cổ kính
-                        nhất Singapore. Nơi đây còn là tâm điểm cho nghệ thuật
-                        biểu diễn của đảo quốc sư tử ngay từ thời thuộc địa.
-                      </p>
-                      <strong>+ Nhà hát Esplanade </strong>
-                    </li>
-                    <li className="pl-[20px]">
-                      <p>
-                        Quý khách tham quan khu vườn sinh thái đặc biệt mang tên{" "}
-                        <strong>Bay South Garden</strong> với hệ thống “siêu
-                        cây” năng lượng mặt trời. Khu vườn nằm trong dự án
-                        Gardens by the Bay, dự án công viên sinh thái lớn nhất
-                        Singapore nhằm nâng cao chất lượng cuộc sống, giữ được
-                        màu xanh cho đô thị sầm uất. Toàn bộ dự án có tổng diện
-                        tích 101 ha, được chia làm 3 khu riêng biệt là: Bay
-                        South, Bay East và Bay Central.
-                      </p>
-                      <p>
-                        + Quý khách{" "}
-                        <strong>mua sắm tại cửa hàng dầu gió</strong> nổi tiếng
-                        độc đáo của Singapore.
-                      </p>
-                      <p>
-                        Xe đưa đoàn về lại Du Thuyền, đoàn dùng bữa tối, tự do
-                        nghỉ ngơi thư giãn.
-                      </p>
-                      <p>
-                        Quý khách thưởng thức <strong>SHOW BIỂU DIỄN</strong>{" "}
-                        đặc sắc tại nhà hát lớn trên Du Thuyền.
-                      </p>
-                    </li>
-                  </ol>
+                  <div className="px-3" dangerouslySetInnerHTML={{__html: `
+<p><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">Đo&agrave;n d&ugrave;ng bữa s&aacute;ng v&agrave; l&agrave;m thủ tục trả ph&ograve;ng kh&aacute;ch sạn, xe đưa đo&agrave;n tham quan:</span></span></span></span></p>
+
+<p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">+<strong> C&ocirc;ng vi&ecirc;n sư tử biển (Merlion Park) </strong>- đ&acirc;y l&agrave; biểu tượng của đất nước Singapore.</span></span></span></span></p>
+
+<p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">+<strong> T&ograve;a nh&agrave; Quốc Hội (Parliament House).</strong></span></span></span></span></p>
+
+<p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">+<strong> Nh&agrave; h&aacute;t Victoria</strong> &ndash; nh&agrave; h&aacute;t cổ k&iacute;nh nhất Singapore. Nơi đ&acirc;y c&ograve;n l&agrave; t&acirc;m điểm cho nghệ thuật biểu diễn của đảo quốc sư tử ngay từ thời thuộc địa.</span></span></span></span></p>
+
+<p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">+<strong> Nh&agrave; h&aacute;t Esplanade</strong> nổi tiếng với biểu tượng &ldquo;tr&aacute;i sầu ri&ecirc;ng&rdquo;.</span></span></span></span></p>
+
+<p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">+ Qu&yacute; kh&aacute;ch mua sắm tại <strong>cửa h&agrave;ng dầu gi&oacute; </strong>nổi tiếng độc đ&aacute;o của Singapore.</span></span></span></span></p>
+
+<p><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">Đo&agrave;n d&ugrave;ng bữa trưa tại nh&agrave; h&agrave;ng địa phương.</span></span></span></span></p>
+
+<p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">+ Đến <strong>vịnh Marina Bay Shopping </strong>- L&agrave; khu mua sắm h&agrave;ng đầu trong khu vực vịnh Marina rộng lớn v&agrave; được thiết kế với kiến tr&uacute;c tuyệt đẹp.</span></span></span></span></p>
+
+<p><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">16h00 Xe đưa đo&agrave;n khởi h&agrave;nh đến Cảng Marina Bay Cruise. Đo&agrave;n l&agrave;m thủ tục l&ecirc;n Du Thuyền Genting Dream kh&aacute;m ph&aacute; c&aacute;c dịch vụ cao cấp&nbsp;</span></span></span></span></p>
+
+<p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">+ <strong>C&Ocirc;NG VI&Ecirc;N NƯỚC TR&Ecirc;N BIỂN:</strong> C&ocirc;ng vi&ecirc;n nước tr&ecirc;n đại dưỡng với 6 đường trượt ph&ugrave; hợp cho gia đ&igrave;nh v&agrave; cả những người ưa mạo hiểm với niềm vui bất tận. B&ecirc;n cạnh đ&oacute; c&oacute; thể tham gia c&aacute;c tr&ograve; chơi giải tr&iacute; đặc biệt như zipline, s&acirc;n Mini- golf, leo n&uacute;i nh&acirc;n tạo, bowling&hellip;</span></span></span></span></p>
+
+<p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">+<strong> NH&Agrave; H&Aacute;T ZODIAC:</strong> Nh&agrave; h&aacute;t Zodiac c&oacute; c&aacute;c bộ phim bom tấn 3D mới nhất với &acirc;m thanh v&ograve;m Dolby hi-fidelity v&agrave; k&iacute;nh 3D tr&ecirc;n m&agrave;n h&igrave;nh đỉnh cao&nbsp;</span></span></span></span></p>
+
+<p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">+<strong> BAR 360:</strong> Ph&ograve;ng chờ 360, ba tầng n&agrave;y mang đến cho bạn c&aacute;i nh&igrave;n về giải tr&iacute; trực tiếp từ mọi g&oacute;c độ.&nbsp;</span></span></span></span></p>
+
+<p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">+<strong> NHIỀU LỰA CHỌN ẨM THỰC:</strong> đặc biệt như đồ chay, đồ Ấn Độ. Du thuyền phục vụ ẩm thực Trung Quốc, Nhật Bản, H&agrave;n Quốc, c&aacute;c m&oacute;n ăn Đ&ocirc;ng Nam &Aacute;</span></span></span></span></p>
+
+<p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">+<strong> SPA TRỊ LIỆU V&Agrave; THƯ GI&Atilde;N TR&Ecirc;N BIỂN:</strong> kết hợp c&aacute;c kỹ thuật truyền thống của Trung Quốc v&agrave; bấm huyệt trị liệu. Qu&yacute; kh&aacute;ch sẽ được thư gi&atilde;n đặc biệt trong khi nhấm nh&aacute;p tr&aacute;i c&acirc;y tươi</span></span></span></span></p>
+
+<p><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">Đo&agrave;n d&ugrave;ng bữa tối tr&ecirc;n du thuyền.</span></span></span></span></p>
+
+<p><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">Sau đ&oacute; đo&agrave;n thưởng thức <strong>SHOW BIỂU DIỄN</strong> đặc sắc tại nh&agrave; h&aacute;t lớn tr&ecirc;n Du Thuyền.</span></span></span></span></p>
+
+<p style="margin-left:40px">&nbsp;</p>
+
+<p>&nbsp;</p>
+
+
+                  `}}/>
                 </div>
               </div>
             </div>

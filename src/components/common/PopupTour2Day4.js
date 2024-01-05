@@ -10,7 +10,7 @@ export default function PopupTour2Day4() {
           <div className="max-w-[1022px] w-full relative mb-[50px] top-[20px] left-0 md:left-[50%] md:translate-x-[-50%] popup-days --two">
             <div className="bg-red p-[16px] flex items-center justify-between">
               <p className="text-[12px] md:text-[15px] font-bold text-white">
-                NGÀY 4: Kualalumpur - Hồ Chí Minh
+                NGÀY 4: KUALA LUMPUR – HỒ CHÍ MINH
               </p>
               <span
                 onClick={() => setShowTour2Day4(false)}
@@ -35,54 +35,25 @@ export default function PopupTour2Day4() {
                     </div>
                     <div>
                       <p className="text-[12px] md:text-[20px] text-grey3F font-bold">
-                        KUALA LUMPUR - HỒ CHÍ MINH
+                      KUALA LUMPUR – HỒ CHÍ MINH
                       </p>
                       <p className="text-[12px] italic">
-                        (Ăn sáng & ăn trưa tại Kuala Lumpur)
+                        (Ăn sáng)
                       </p>
                     </div>
                   </div>
-                  <ol className="text-grey3F text-[12px] md:text-[16px]">
-                    <li className="pl-[20px] pb-[16px] mb-[16px] border-b-[3px] border-dotted border-[#f1f1f1]">
-                      <p>
-                        Sáng: Quý khách dùng bữa sáng và làm thủ tục trả phòng.
-                      </p>
-                    </li>
-                    <li className="pl-[20px] pb-[16px] mb-[16px] border-b-[3px] border-dotted border-[#f1f1f1]">
-                      <p>Xe đưa Quý khách tham quan:</p>
-                      <p>
-                        <strong>+ Chùa Thiên Hậu (Thien Hau Temple)</strong> -
-                        nằm trên đỉnh ngọn đồi Robson, thuộc thủ đô Kuala
-                        Lumpur. Với thiết kế độc đáo, ấn tượng, diện tích chùa
-                        lên tới 6760m2, chùa Bà Thiên Hậu được đánh giá là ngôi
-                        chùa đẹp, và lớn nhất Đông Nam Á.
-                      </p>
-                      <p>
-                        <strong>+ Khu PUTRAJAYA</strong> - Trung Tâm Hành Chính
-                        mới (NEW CITY) của MALAYSIA với những địa danh du lịch
-                        nổi tiếng như:{" "}
-                        <strong>
-                          Nhà thờ Hồi giáo Putra, Văn phòng Thủ tướng, Trung tâm
-                          hội nghị.
-                        </strong>
-                      </p>
-                      <p>
-                        + Putrajaya còn được xem là Thành phố thông minh đẳng
-                        cấp thế giới và có môi trường làm việc vô cùng hiện đại:
-                        không ô nhiễm môi trường, không tệ nạn, không có lạc hậu
-                        và dân cư thì được tinh lọc rất kĩ lưỡng.{" "}
-                      </p>
-                      <p>Đoàn dùng bữa trưa tại nhà hàng địa phương.</p>
-                    </li>
-                    <li className="pl-[20px]">
-                      <p>
-                        Xe đưa đoàn ra sân bay làm thủ tục về Việt Nam trên
-                        chuyến bay dự kiến{" "}
-                        <strong>VN 674 20NOV KULSGN 1545 1700</strong>. Kết thúc
-                        chương trình tham quan.
-                      </p>
-                    </li>
-                  </ol>
+                  <div className="px-3" dangerouslySetInnerHTML={{__html: `
+<p><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">S&aacute;ng: Qu&yacute; kh&aacute;ch d&ugrave;ng bữa s&aacute;ng v&agrave; l&agrave;m thủ tục trả ph&ograve;ng.</span></span></span></span></p>
+
+<p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">+ Tham quan <strong>Cửa h&agrave;ng Socola - Bery&#39;s</strong> &amp; <strong>đặc sản địa phương</strong></span></span></span></span></p>
+
+<p><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">Xe đưa đo&agrave;n ra s&acirc;n bay l&agrave;m thủ tục về<strong> Tp. Hồ Ch&iacute; Minh</strong>. Kết th&uacute;c chương tr&igrave;nh tham quan.</span></span></span></span></p>
+
+<p><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">Chia tay Qu&yacute; kh&aacute;ch. Hẹn gặp lại qu&yacute; kh&aacute;ch</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+                  `}}/>
                 </div>
               </div>
             </div>

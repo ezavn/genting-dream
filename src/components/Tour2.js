@@ -13,7 +13,7 @@ export default function Tour2() {
       <div className="page-container flex md:flex-row flex-col items-center justify-between mb-[50px]">
         <div className="heading md:text-left text-center mb-[20px] md:mb-0">
           <p className="sup">
-            HẢI TRÌNH <span className="--second">MALAYSIA - SINGAPORE</span>
+            HẢI TRÌNH <span className="--second">SINGAPORE - MALAYSIA</span>
           </p>
           <p className="main --second">4 NGÀY 3 ĐÊM</p>
         </div>
@@ -47,8 +47,8 @@ export default function Tour2() {
         <TourItem
           img="/images/tour2-4.png"
           day="NGÀY 4"
-          title="KUALA LUMPUR - HỒ CHÍ MINH"
-          desc="(Ăn sáng & ăn trưa tại Kuala Lumpur)"
+          title="KUALA LUMPUR – HỒ CHÍ MINH"
+          desc="(Ăn sáng)"
           num="4"
           onClick={() => setShowTour2Day4(true)}
         ></TourItem>

@@ -10,7 +10,7 @@ export default function PopupTour1Day2() {
           <div className="max-w-[1022px] w-full relative mb-[50px] top-[20px] left-0 md:left-[50%] md:translate-x-[-50%] popup-days --two">
             <div className="bg-red p-[16px] flex items-center justify-between">
               <p className="text-[12px] md:text-[15px] font-bold text-white">
-                NGÀY 2: Singapore
+                NGÀY 2: SINGAPORE – KUALA LUMPUR (MALAYSIA)
               </p>
               <span
                 onClick={() => setShowTour1Day2(false)}
@@ -35,99 +35,48 @@ export default function PopupTour1Day2() {
                     </div>
                     <div>
                       <p className="text-[12px] md:text-[20px] text-grey3F font-bold">
-                        SINGAPORE
+                      SINGAPORE – KUALA LUMPUR (MALAYSIA)
                       </p>
                       <p className="text-[12px] italic">
                         <p className="text-[12px] italic">
-                          (Ăn trưa tại Singapore & ăn tối trên du thuyền)
+                        (Ăn sáng, trưa & tối)
                         </p>
                       </p>
                     </div>
                   </div>
-                  <ol className="text-grey3F text-[12px] md:text-[16px]">
-                    <li className="pl-[20px] pb-[16px] mb-[16px] border-b-[3px] border-dotted border-[#f1f1f1]">
-                      <p>
-                        Quý khách sẽ được tự do tận hưởng một ngày sôi động với
-                        các hoạt động giải trí trên du thuyền:
-                      </p>
-                    </li>
-                    <li className="pl-[20px] pb-[16px] mb-[16px] border-b-[3px] border-dotted border-[#f1f1f1]">
-                      <p>
-                        <strong>+ CÂU LẠC BỘ BÃI BIỂN ZOUK:</strong> Quý khách
-                        sẽ khám phá một câu lạc bộ bãi biển ngoài trời tuyệt vời
-                        trên biển với những ly cocktail, bể bơi và bàn bi-a, DJ
-                        và nhạc sống và một màn hình LED khổng lồ cho các đêm
-                        câu lạc bộ và đêm chiếu phim vào các ngày trong tuần.
-                      </p>
-                    </li>
-                    <li className="pl-[20px] pb-[16px] mb-[16px] border-b-[3px] border-dotted border-[#f1f1f1]">
-                      <p>
-                        <strong>+ PHÒNG THÍ NGHIỆM ESC:</strong> Giải trí đỉnh
-                        cao trong phòng thí nghiệm ESC tiên tiến giúp đưa quý
-                        khách vào thế giới ảo mà quý khách chưa từng biết đến.
-                        Hãy cảm nhận tàu lượn siêu tốc VR đầy đủ của Finger
-                        Coaster, khám phá thế giới dưới nước tuyệt vời với thực
-                        tế ảo Icaros… và hơn thế nữa
-                      </p>
-                    </li>
-                    <li className="pl-[20px] pb-[16px] mb-[16px] border-b-[3px] border-dotted border-[#f1f1f1]">
-                      <p>
-                        <strong>+ BAR 360:</strong> Một trong những quán bar ấn
-                        tượng nhất trên biển, phòng chờ 360 tầng ba tầng này
-                        mang đến cho bạn cái nhìn về giải trí trực tiếp từ mọi
-                        góc độ. Nhưng bất kể bạn đang ở đâu, quý khách sẽ tận
-                        hưởng những cảm giác yêu thích cũng như những ly
-                        cocktail sáng tạo tại địa điểm đặc biệt này.
-                      </p>
-                    </li>
-                    <li className="pl-[20px] pb-[16px] mb-[16px] border-b-[3px] border-dotted border-[#f1f1f1]">
-                      <p>
-                        <strong>+ NHIỀU LỰA CHỌN ẨM THỰC:</strong> tổng cộng 35
-                        nhà hàng và bar ngay cả những yêu cầu về ẩm thực đặc
-                        biệt như đồ chay, đồ Ấn Độ. Du thuyền phục vụ ẩm thực
-                        Trung Quốc, Nhật Bản, Hàn Quốc, các món ăn Đông Nam Á,
-                        đồ u và rất nhiều loại đồ uống tuyệt vời dành cho những
-                        người đam mê ẩm thực.
-                      </p>
-                    </li>
-                    <li className="pl-[20px] pb-[16px] mb-[16px] border-b-[3px] border-dotted border-[#f1f1f1]">
-                      <p>
-                        <strong>+ SPA TRỊ LIỆU VÀ THƯ GIÃN TRÊN BIỂN:</strong>{" "}
-                        kết hợp các kỹ thuật truyền thống của Trung Quốc và bấm
-                        huyệt trị liệu. Quý khách sẽ được thư giãn đặc biệt
-                        trong khi nhấm nháp trái cây tươi, thưởng thức giải trí
-                        trên một chiếc iPad cá nhân, hoặc đơn giản là chìm đắm
-                        vào sự hồi sinh hạnh phúc.
-                      </p>
-                    </li>
-                    <li className="pl-[20px] pb-[16px] mb-[16px] border-b-[3px] border-dotted border-[#f1f1f1]">
-                      <p>
-                        <strong>+ TRẢI NGHIỆM MUA SẮM MIỄN THUẾ:</strong> quý
-                        khách sẽ hòa mình vào mua sắm cao cấp bao gồm các cửa
-                        hàng đồng hồ uy tín, trang sức cao cấp, hàng da cao cấp
-                        và hơn thế nữa. Quý khách sẽ được mua thuế và miễn thuế
-                        với mức giá hấp dẫn.
-                      </p>
-                    </li>
-                    <li className="pl-[20px] pb-[16px] mb-[16px] border-b-[3px] border-dotted border-[#f1f1f1]">
-                      <p>
-                        <strong>+ CÔNG VIÊN NƯƠC TRÊN BIỂN:</strong> Công viên
-                        nước trên đại dưỡng với 6 đường trượt phù hợp cho gia
-                        đình và cả những người ưa mạo hiểm với niềm vui bất tận.
-                        Bên cạnh đó quý khách cũng có thể tham gia các trò chơi
-                        giải trí đặc biệt như zipline đặc biệt, sân Mini-golf,
-                        leo núi nhân tạo, bowling…
-                      </p>
-                    </li>
-                    <li className="pl-[20px]">
-                      <p>
-                        <strong>+ NHÀ HÁT ZODIAC:</strong> Nhà hát Zodiac có các
-                        bộ phim bom tấn 3D mới nhất với âm thanh vòm Dolby
-                        hi-fidelity và kính 3D trên màn hình đỉnh cao khiến quý
-                        khách cảm thấy chính mình một phần của bộ phim.
-                      </p>
-                    </li>
-                  </ol>
+                  <div className="px-3" dangerouslySetInnerHTML={{__html: `
+                  <p><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#131313"><span style="background-color:#ffffff">Qu&yacute; kh&aacute;ch tự do ăn s&aacute;ng tại c&aacute;c nh&agrave; h&agrave;ng. Khởi đầu ng&agrave;y mới qu&yacute; kh&aacute;ch c&oacute; thể ng&acirc;m m&igrave;nh trong l&agrave;n nước m&aacute;t mẻ hoặc tham gia hoạt động thể thao th&uacute; vị:</span></span></span></span></p>
+
+                  <p><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff"><strong>C&Ocirc;NG VI&Ecirc;N NƯỚC TR&Ecirc;N BIỂN: </strong>C&ocirc;ng vi&ecirc;n nước tr&ecirc;n đại dương với 6 đường trượt ph&ugrave; hợp cho gia đ&igrave;nh v&agrave; cả những người ưa mạo hiểm với niềm vui bất tận.</span></span></span></span></p>
+                  
+                  <p><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff"><strong>NHIỀU LỰA CHỌN ẨM THỰC: </strong>tổng cộng 35 nh&agrave; h&agrave;ng v&agrave; bar ngay cả những y&ecirc;u cầu về ẩm thực đặc biệt như đồ chay, đồ Ấn Độ. Du thuyền phục vụ ẩm thực Trung Quốc, Nhật Bản, H&agrave;n Quốc, c&aacute;c m&oacute;n ăn Đ&ocirc;ng Nam &Aacute; v&agrave; rất nhiều loại đồ uống tuyệt vời&nbsp;</span></span></span></span></p>
+                  
+                  <p><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff">Qu&yacute; kh&aacute;ch d&ugrave;ng bữa trưa tr&ecirc;n du thuyền.</span></span></span></span></p>
+                  
+                  <p><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff">12h00 T&agrave;u cập cảng Malaysia, xe đ&oacute;n đo&agrave;n tại cảng v&agrave; đưa về thủ đ&ocirc; <strong>Kuala Lumpur, </strong>tham quan:</span></span></span></span></p>
+                  
+                  <p style="margin-left:40px"><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff">&nbsp;+ Chụp h&igrave;nh lưu niệm tại <strong>Tháp Đ&ocirc;i (Twin Towers)</strong>.</span></span></span></span></p>
+                  
+                  <p style="margin-left:40px"><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff"><strong>+ Cung điện Ho&agrave;ng gia (Royal Palace):</strong> Cung điện được x&acirc;y dựng tr&ecirc;n ngọn đồi Jalan Duta ph&iacute;a t&acirc;y bắc bắc Kuala Lumpur.&nbsp;</span></span></span></span></p>
+                  
+                  <p style="margin-left:40px"><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff"><strong>+ Đài tượng niệm Quốc gia (National Monument)</strong> - một trong những bức tượng đồng lớn nhất thế giới, cao 15.5m. Để tưởng niệm 10.000 đ&atilde; ng&atilde; xuống trong chiến tranh thế giới thứ I v&agrave; thứ II&nbsp;</span></span></span></span></p>
+                  
+                  <p style="margin-left:40px"><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff"><strong>+ Quảng trường Độc lập (Independence Square).</strong></span></span></span></span></p>
+                  
+                  <p style="margin-left:40px"><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff">+ Tham quan <strong>Cửa h&agrave;ng Socola - Bery&#39;s</strong> &amp;<strong> đặc sản địa phương</strong></span></span></span></span></p>
+                  
+                  <p><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff">17h00 Sau chuyến tham quan, xe đưa đo&agrave;n về lại Du Thuyền d&ugrave;ng bữa tối.</span></span></span></span></p>
+                  
+                  <p><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff">Qu&yacute; kh&aacute;ch thưởng thức<strong> SHOW BIỂU DIỄN</strong> đặc sắc tại nh&agrave; h&aacute;t lớn tr&ecirc;n Du Thuyền.</span></span></span></span></p>
+                  
+                  <p><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff">Qu&yacute; kh&aacute;ch tự do kh&aacute;m ph&aacute; c&aacute;c hoạt động tr&ecirc;n Du thuyền về đ&ecirc;m.</span></span></span></span></p>
+                  
+                  <p>&nbsp;</p>
+                  
+                  <p>&nbsp;</p>
+                  
+                  
+                  `}}></div>
                 </div>
               </div>
             </div>

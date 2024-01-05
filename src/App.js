@@ -2,6 +2,7 @@ import About from "./components/About";
 import PopupTour1Day1 from "./components/common/PopupTour1Day1";
 import PopupTour1Day2 from "./components/common/PopupTour1Day2";
 import PopupTour1Day3 from "./components/common/PopupTour1Day3";
+import PopupTour1Day4 from "./components/common/PopupTour1Day4";
 import PopupTour2Day1 from "./components/common/PopupTour2Day1";
 import PopupTour2Day2 from "./components/common/PopupTour2Day2";
 import PopupTour2Day3 from "./components/common/PopupTour2Day3";
@@ -34,6 +35,7 @@ function App() {
         <PopupTour1Day1 />
         <PopupTour1Day2 />
         <PopupTour1Day3 />
+        <PopupTour1Day4 />
         <PopupTour2Day1 />
         <PopupTour2Day2 />
         <PopupTour2Day3 />

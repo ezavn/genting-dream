@@ -2,7 +2,7 @@ import React from "react";
 import { usePopup } from "../contexts/popupContext";
 
 export default function Tour1() {
-  const { setShowTour1Day1, setShowTour1Day2, setShowTour1Day3 } = usePopup();
+  const { setShowTour1Day1, setShowTour1Day2, setShowTour1Day3, setShowTour1Day4 } = usePopup();
   return (
     <section id="tour" className="sc-tour py-section bg-red">
       <div className="page-container flex md:flex-row flex-col items-center justify-between mb-[50px]">
@@ -18,26 +18,34 @@ export default function Tour1() {
         <TourItem
           img="/images/tour1-1.png"
           day="NGÀY 1"
-          title="HỒ CHÍ MINH - SINGAPORE"
-          desc="(Ăn trưa tại Singapore & ăn tối trên du thuyền)"
+          title="VIỆT NAM - SINGAPORE"
+          desc="(Ăn trưa & ăn tối)"
           num="1"
           onClick={() => setShowTour1Day1(true)}
         ></TourItem>
         <TourItem
           img="/images/tour1-2.png"
           day="NGÀY 2"
-          title="SINGAPORE"
-          desc="(Ăn ba bữa trên du thuyền)"
+          title="SINGAPORE – KUALA LUMPUR (MALAYSIA)"
+          desc="(Ăn sáng, trưa & tối)"
           num="2"
           onClick={() => setShowTour1Day2(true)}
         ></TourItem>
         <TourItem
-          img="/images/tour1-3.png"
+          img="/images/tour2-3.png"
           day="NGÀY 3"
-          title="SINGAPORE - HỒ CHÍ MINH"
-          desc="(Ăn sáng trên du thuyền & ăn trưa tại Singapore)"
+          title="DU THUYỀN - SINGAPORE"
+          desc="(Ăn sáng, trưa & tối)"
           num="3"
           onClick={() => setShowTour1Day3(true)}
+        ></TourItem>
+        <TourItem
+          img="/images/tour1-3.png"
+          day="NGÀY 4"
+          title="SINGAPORE - VIỆT NAM"
+          desc="(Ăn sáng & ăn trưa)"
+          num="4"
+          onClick={() => setShowTour1Day4(true)}
         ></TourItem>
       </div>
     </section>

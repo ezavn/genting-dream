@@ -10,7 +10,7 @@ export default function PopupTour1Day1() {
           <div className="max-w-[1022px] w-full relative mb-[50px] top-[20px] left-0 md:left-[50%] md:translate-x-[-50%] popup-days --two">
             <div className="bg-red p-[16px] flex items-center justify-between">
               <p className="text-[12px] md:text-[15px] font-bold text-white">
-                NGÀY 1: Hồ Chí Minh - Singapore
+                NGÀY 1: VIỆT NAM - SINGAPORE
               </p>
               <span
                 onClick={() => setShowTour1Day1(false)}
@@ -35,65 +35,46 @@ export default function PopupTour1Day1() {
                     </div>
                     <div>
                       <p className="text-[12px] md:text-[20px] text-grey3F font-bold">
-                        HỒ CHÍ MINH - SINGAPORE
+                        VIỆT NAM - SINGAPORE
                       </p>
                       <p className="text-[12px] italic">
-                        (Ăn trưa tại Singapore & ăn tối trên du thuyền)
+                        (Ăn trưa & ăn tối)
                       </p>
                     </div>
                   </div>
-                  <ol className="text-grey3F text-[12px] md:text-[16px]">
-                    <li className="pl-[20px] pb-[16px] mb-[16px] border-b-[3px] border-dotted border-[#f1f1f1]">
-                      06h00: Quý khách đến sân bay quốc tế, làm thủ tục khởi
-                      hành đi <strong>Singapore</strong>. Chuyến bay dự kiến{" "}
-                      <strong>VietJet SGNSIN</strong>
-                      (09:00 - 12:05)
-                    </li>
-                    <li className="pl-[20px] pb-[16px] mb-[16px] border-b-[3px] border-dotted border-[#f1f1f1]">
-                      <p>
-                        12h20: Đến <strong>sân bay quốc tế Changgi</strong> làm
-                        thủ tục nhập cảnh.
-                      </p>
-                      <p>
-                        Xe đưa Quý khách dùng <strong>BỮA TRƯA BBQ</strong> với
-                        nhiều món ngon hấp dẫn, sau đó đoàn tiếp tục tham quan:{" "}
-                      </p>
-                      <p>
-                        <strong>+ Công viên sư tử biển (Merlion Park)</strong> -
-                        đây là biểu tượng của đất nước Singapore.
-                      </p>
-                      <p>
-                        <strong>+ Tòa nhà Quốc Hội (Parliament House)</strong>.{" "}
-                      </p>
-                      <p>
-                        <strong>
-                          + Nhà hát Victoria – nhà hát cổ kính nhất Singapore
-                        </strong>
-                        . Nơi đây còn là tâm điểm cho nghệ thuật biểu diễn của
-                        đảo quốc sư tử ngay từ thời thuộc địa.
-                      </p>
-                      <p>
-                        <strong>+ Nhà hát Esplanade</strong> nổi tiếng với biểu
-                        tượng “trái sầu riêng”.{" "}
-                      </p>
-                    </li>
-                    <li className="pl-[20px]">
-                      <p>
-                        Xe đưa đoàn khởi hành đến{" "}
-                        <strong>Cảng Marina Bay Cruise</strong>.
-                      </p>
-                      <p>
-                        16h00: Đoàn làm thủ tục lên{" "}
-                        <strong>Du Thuyền Genting Dream</strong> khám phá các
-                        dịch vụ cao cấp trên du thuyền, tự do thư giãn nghỉ
-                        ngơi.
-                      </p>
-                      <p>
-                        Quý khách thưởng thức <strong>SHOW BIỂU DIỄN</strong>{" "}
-                        đặc sắc tại nhà hát lớn trên Du Thuyền.
-                      </p>
-                    </li>
-                  </ol>
+                  <div className="px-3" dangerouslySetInnerHTML={{__html: `
+                  <p><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#131313"><span style="background-color:#ffffff">Qu&yacute; kh&aacute;ch tự do ăn s&aacute;ng tại c&aacute;c nh&agrave; h&agrave;ng. Khởi đầu ng&agrave;y mới qu&yacute; kh&aacute;ch c&oacute; thể ng&acirc;m m&igrave;nh trong l&agrave;n nước m&aacute;t mẻ hoặc tham gia hoạt động thể thao th&uacute; vị:</span></span></span></span></p>
+
+                  <p><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff"><strong>C&Ocirc;NG VI&Ecirc;N NƯỚC TR&Ecirc;N BIỂN: </strong>C&ocirc;ng vi&ecirc;n nước tr&ecirc;n đại dương với 6 đường trượt ph&ugrave; hợp cho gia đ&igrave;nh v&agrave; cả những người ưa mạo hiểm với niềm vui bất tận.</span></span></span></span></p>
+                  
+                  <p><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff"><strong>NHIỀU LỰA CHỌN ẨM THỰC: </strong>tổng cộng 35 nh&agrave; h&agrave;ng v&agrave; bar ngay cả những y&ecirc;u cầu về ẩm thực đặc biệt như đồ chay, đồ Ấn Độ. Du thuyền phục vụ ẩm thực Trung Quốc, Nhật Bản, H&agrave;n Quốc, c&aacute;c m&oacute;n ăn Đ&ocirc;ng Nam &Aacute; v&agrave; rất nhiều loại đồ uống tuyệt vời&nbsp;</span></span></span></span></p>
+                  
+                  <p><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff">Qu&yacute; kh&aacute;ch d&ugrave;ng bữa trưa tr&ecirc;n du thuyền.</span></span></span></span></p>
+                  
+                  <p><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff">12h00 T&agrave;u cập cảng Malaysia, xe đ&oacute;n đo&agrave;n tại cảng v&agrave; đưa về thủ đ&ocirc; <strong>Kuala Lumpur, </strong>tham quan:</span></span></span></span></p>
+                  
+                  <p style="margin-left:40px"><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff">&nbsp;+ Chụp h&igrave;nh lưu niệm tại <strong>Tháp Đ&ocirc;i (Twin Towers)</strong>.</span></span></span></span></p>
+                  
+                  <p style="margin-left:40px"><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff"><strong>+ Cung điện Ho&agrave;ng gia (Royal Palace):</strong> Cung điện được x&acirc;y dựng tr&ecirc;n ngọn đồi Jalan Duta ph&iacute;a t&acirc;y bắc bắc Kuala Lumpur.&nbsp;</span></span></span></span></p>
+                  
+                  <p style="margin-left:40px"><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff"><strong>+ Đài tượng niệm Quốc gia (National Monument)</strong> - một trong những bức tượng đồng lớn nhất thế giới, cao 15.5m. Để tưởng niệm 10.000 đ&atilde; ng&atilde; xuống trong chiến tranh thế giới thứ I v&agrave; thứ II&nbsp;</span></span></span></span></p>
+                  
+                  <p style="margin-left:40px"><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff"><strong>+ Quảng trường Độc lập (Independence Square).</strong></span></span></span></span></p>
+                  
+                  <p style="margin-left:40px"><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff">+ Tham quan <strong>Cửa h&agrave;ng Socola - Bery&#39;s</strong> &amp;<strong> đặc sản địa phương</strong></span></span></span></span></p>
+                  
+                  <p><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff">17h00 Sau chuyến tham quan, xe đưa đo&agrave;n về lại Du Thuyền d&ugrave;ng bữa tối.</span></span></span></span></p>
+                  
+                  <p><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff">Qu&yacute; kh&aacute;ch thưởng thức<strong> SHOW BIỂU DIỄN</strong> đặc sắc tại nh&agrave; h&aacute;t lớn tr&ecirc;n Du Thuyền.</span></span></span></span></p>
+                  
+                  <p><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#081c36"><span style="background-color:#ffffff">Qu&yacute; kh&aacute;ch tự do kh&aacute;m ph&aacute; c&aacute;c hoạt động tr&ecirc;n Du thuyền về đ&ecirc;m.</span></span></span></span></p>
+                  
+                  <p>&nbsp;</p>
+                  
+                  <p>&nbsp;</p>
+                  
+                  
+`}}></div>
                 </div>
               </div>
             </div>

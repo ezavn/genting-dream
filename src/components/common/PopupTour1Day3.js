@@ -10,7 +10,7 @@ export default function PopupTour1Day3() {
           <div className="max-w-[1022px] w-full relative mb-[50px] top-[20px] left-0 md:left-[50%] md:translate-x-[-50%] popup-days --two">
             <div className="bg-red p-[16px] flex items-center justify-between">
               <p className="text-[12px] md:text-[15px] font-bold text-white">
-                NGÀY 3: Singapore - Hồ Chí Minh
+                NGÀY 3: DU THUYỀN - SINGAPORE
               </p>
               <span
                 onClick={() => setShowTour1Day3(false)}
@@ -35,49 +35,31 @@ export default function PopupTour1Day3() {
                     </div>
                     <div>
                       <p className="text-[12px] md:text-[20px] text-grey3F font-bold">
-                        SINGAPORE - HỒ CHÍ MINH
+                      DU THUYỀN - SINGAPORE
                       </p>
                       <p className="text-[12px] italic">
-                        (Ăn sáng trên du thuyền & ăn trưa tại Singapore)
+                      (Ăn sáng, trưa & tối)
                       </p>
                     </div>
                   </div>
-                  <ol className="text-grey3F text-[12px] md:text-[16px]">
-                    <li className="pl-[20px] pb-[16px] mb-[16px] border-b-[3px] border-dotted border-[#f1f1f1]">
-                      <p>
-                        Đoàn dùng bữa sáng trên Du Thuyền, sau đó Quý khách làm
-                        thủ tục xuống Cảng.
-                      </p>
-                    </li>
-                    <li className="pl-[20px] pb-[16px] mb-[16px] border-b-[3px] border-dotted border-[#f1f1f1]">
-                      <p>
-                        Xe đón và đưa Quý khách dùng bữa trưa tại nhà hàng địa
-                        phương.
-                      </p>
-                      <p>
-                        + Quý khách{" "}
-                        <strong>mua sắm tại cửa hàng dầu gió</strong> nổi tiếng
-                        độc đáo của Singapore.
-                      </p>
-                      <p>Xe đưa đoàn ra sân bay tham quan</p>
-                      <p>
-                        + <strong>Thác nước Jewel Changi</strong> – địa điểm
-                        check in hot nhất Singapore hay còn được biết đến với
-                        tên Rain Vortex là thác nước trong nhà cao nhất thế
-                        giới, với độ cao 40m.
-                      </p>
-                    </li>
-                    <li className="pl-[20px]">
-                      <p>
-                        Đoàn làm thủ tục về Việt Nam trên chuyến bay dự kiến
-                        <strong>VietJet SINSGN 17:55 -19:00</strong>
-                      </p>
-                      <p>
-                        Về đến sân bay Tân Sơn Nhất. Kết thúc chương trình tham
-                        quan.
-                      </p>
-                    </li>
-                  </ol>
+                  <div className="px-3" dangerouslySetInnerHTML={{__html: `
+                  <p><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#081c36"><span style="background-color:#ffffff">Qu&yacute; kh&aacute;ch dậy sớm ngắm b&igrave;nh minh tr&ecirc;n du thuyền v&agrave; tự do ăn s&aacute;ng tại c&aacute;c nh&agrave; h&agrave;ng.</span></span></span></span></p>
+
+                  <p><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#081c36"><span style="background-color:#ffffff">Qu&yacute; kh&aacute;ch l&agrave;m thủ tục xuống Cảng, sau đ&oacute; đo&agrave;n tiếp tục tham quan:</span></span></span></span></p>
+                  
+                  <p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#081c36"><span style="background-color:#ffffff">+<strong> C&ocirc;ng vi&ecirc;n sư tử biển (Merlion Park) </strong>- đ&acirc;y l&agrave; biểu tượng của đất nước Singapore.</span></span></span></span></p>
+                  
+                  <p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#081c36"><span style="background-color:#ffffff">+<strong> T&ograve;a nh&agrave; Quốc Hội (Parliament House)</strong></span></span></span></span></p>
+                  
+                  <p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#081c36"><span style="background-color:#ffffff">+<strong> Nh&agrave; h&aacute;t Victoria </strong>&ndash; nh&agrave; h&aacute;t cổ k&iacute;nh nhất Singapore.</span></span></span></span></p>
+                  
+                  <p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#081c36"><span style="background-color:#ffffff">+<strong> Nh&agrave; h&aacute;t Esplanade </strong>nổi tiếng với biểu tượng &ldquo;tr&aacute;i sầu ri&ecirc;ng&rdquo;.</span></span></span></span></p>
+                  
+                  <p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#081c36"><span style="background-color:#ffffff">+ Qu&yacute; kh&aacute;ch mua sắm tại <strong>cửa h&agrave;ng dầu gi&oacute; </strong>nổi tiếng độc đ&aacute;o của Singapore.</span></span></span></span></p>
+                  
+                  <p><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#081c36"><span style="background-color:#ffffff">Sau bữa tối, đo&agrave;n về kh&aacute;ch sạn nhận ph&ograve;ng v&agrave; nghỉ ngơi</span></span></span></span></p>
+                  
+                  `}}/>
                 </div>
               </div>
             </div>

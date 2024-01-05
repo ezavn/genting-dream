@@ -23,8 +23,8 @@ export default function Tour2() {
         <TourItem
           img="/images/tour2-1.png"
           day="NGÀY 1"
-          title="HỒ CHÍ MINH - KUALA LUMPUR"
-          desc="(Ăn trưa & ăn tối trên du thuyền)"
+          title="HỒ CHÍ MINH - SINGAPORE"
+          desc="(Ăn trưa & ăn tối)"
           num="1"
           onClick={() => setShowTour2Day1(true)}
         ></TourItem>

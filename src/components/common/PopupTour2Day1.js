@@ -10,7 +10,7 @@ export default function PopupTour2Day1() {
           <div className="max-w-[1022px] w-full relative mb-[50px] top-[20px] left-0 md:left-[50%] md:translate-x-[-50%] popup-days --two">
             <div className="bg-red p-[16px] flex items-center justify-between">
               <p className="text-[12px] md:text-[15px] font-bold text-white">
-                NGÀY 1: Hồ Chí Minh - Kuala Lumpur
+                NGÀY 1: HỒ CHÍ MINH - SINGAPORE
               </p>
               <span
                 onClick={() => setShowTour2Day1(false)}
@@ -35,46 +35,36 @@ export default function PopupTour2Day1() {
                     </div>
                     <div>
                       <p className="text-[12px] md:text-[20px] text-grey3F font-bold">
-                        HỒ CHÍ MINH - KUALA LUMPUR
+                      HỒ CHÍ MINH - SINGAPORE
                       </p>
                       <p className="text-[12px] italic">
-                        (Ăn trưa & ăn tối trên du thuyền)
+                        (Ăn sáng & ăn trưa)
                       </p>
                     </div>
                   </div>
-                  <ol className="text-grey3F text-[12px] md:text-[16px]">
-                    <li className="pl-[20px] pb-[16px] mb-[16px] border-b-[3px] border-dotted border-[#f1f1f1]">
-                      <p>
-                        04h00: Quý khách đến sân bay quốc tế, làm thủ tục khởi
-                        hành đi <strong>Malaysia</strong> chuyến bay dự kiến{" "}
-                        <strong>VN 677 17NOV SGNKUL 0710 1020</strong>
-                      </p>
-                    </li>
-                    <li className="pl-[20px] pb-[16px] mb-[16px] border-b-[3px] border-dotted border-[#f1f1f1]">
-                      <p>
-                        10h20: Tới sân bay quốc tế <strong>Kuala Lumpur</strong>
-                        , làm thủ tục nhập cảnh. Sau đó xe và hướng dẫn viên địa
-                        phương đón và đưa quý khách dùng bữa trưa tại nhà hàng
-                        địa phương.
-                      </p>
-                      <p>
-                        Xe đưa đoàn khởi hành đến{" "}
-                        <strong>Cảng Port Klang</strong>.
-                      </p>
-                      <p>
-                        15h00: Đoàn làm thủ tục lên{" "}
-                        <strong>Du Thuyền Genting Dream</strong> khám phá các
-                        dịch vụ cao cấp trên du thuyền, tự do thư giãn nghỉ
-                        ngơi.
-                      </p>
-                    </li>
-                    <li className="pl-[20px]">
-                      <p>
-                        Quý khách thưởng thức <strong>SHOW BIỂU DIỄN</strong>{" "}
-                        đặc sắc tại nhà hát lớn trên Du Thuyền.
-                      </p>
-                    </li>
-                  </ol>
+
+                  <div className="px-3" dangerouslySetInnerHTML={{__html: `
+<p><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">04h00 Qu&yacute; kh&aacute;ch đến s&acirc;n bay quốc tế, l&agrave;m thủ tục khởi h&agrave;nh đi Singapore&nbsp;</span></span></span></span></p>
+
+<p><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">10h15 Tới s&acirc;n bay quốc tế Changi l&agrave;m thủ tục nhập cảnh. Qu&yacute; kh&aacute;ch di chuyển tham quan:</span></span></span></span></p>
+
+<p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">+<strong> Jewel Changi</strong> c&oacute; h&igrave;nh d&aacute;ng bề ngo&agrave;i như một chiếc b&aacute;nh donut ấn tượng. Được đ&oacute;ng khung bằng th&eacute;p v&agrave; k&iacute;nh.&nbsp;</span></span></span></span></p>
+
+<p><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">Đo&agrave;n d&ugrave;ng bữa trưa tại nh&agrave; h&agrave;ng địa phương v&agrave; xe đưa Qu&yacute; kh&aacute;ch tham quan:</span></span></span></span></p>
+
+<p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">+ <strong>Khu vườn năng lượng Gardens by the Bay</strong> - khu vườn sinh th&aacute;i đặc biệt với c&aacute;c &ldquo;si&ecirc;u c&acirc;y&rdquo; năng lượng mặt trời</span></span></span></span></p>
+
+<p style="list-style-type:disc; margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">+ <strong>Ch&ugrave;a Răng Phật </strong>- l&agrave; một điểm đến du lịch nổi tiếng của Singapore. Ng&ocirc;i ch&ugrave;a c&oacute; n&eacute;t đẹp cổ k&iacute;nh giữa quốc đảo sư tử hiện đại v&agrave; phồn hoa</span></span></span></span></p>
+
+<p><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">Sau bữa tối, đo&agrave;n về kh&aacute;ch sạn nhận ph&ograve;ng v&agrave; nghỉ ngơi.</span></span></span></span></p>
+
+<p><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">Tự do kh&aacute;m ph&aacute; th&agrave;nh phố hoặc tham gia Option tour về đ&ecirc;m (chi ph&iacute; tự t&uacute;c) như:</span></span></span></span></p>
+
+<p style="margin-left:40px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:14px"><span style="color:#131313"><span style="background-color:#ffffff">+ Thưởng thức chương tr&igrave;nh nhạc nước &ldquo;<strong>SPECTRA A LIGHT AND WATER SHOW&ldquo;</strong> tại Marina Bay kết hợp với tham quan khu thương mại phức hợp <strong>Suntec city</strong> &ndash; biểu tượng phong thủy nổi tiếng của Singapore</span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+                  `}}/>
                 </div>
               </div>
             </div>

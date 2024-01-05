@@ -8,13 +8,13 @@ export default function Tour1() {
       <div className="page-container flex md:flex-row flex-col items-center justify-between mb-[50px]">
         <div className="heading mb-[20px] md:mb-0 md:text-left text-center">
           <p className="sup">
-            HẢI TRÌNH <span className="--second">SINGAPORE - MALAYSIA</span>
+            HẢI TRÌNH <span >SINGAPORE - MALAYSIA</span>
           </p>
-          <p className="main --second">4 NGÀY 3 ĐÊM</p>
+          <p className="main">4 NGÀY 3 ĐÊM</p>
         </div>
         {/* <a className="btn">12,990,000 VNĐ</a> */}
       </div>
-      <div className="max-w-[1600px] md:mx-auto px-[15px] grid grid-cols-1 lg:grid-cols-3 gap-[30px]">
+      <div className="max-w-[1600px] md:mx-auto px-[15px] grid grid-cols-1 lg:grid-cols-4 gap-[17px]">
         <TourItem
           img="/images/tour1-1.png"
           day="NGÀY 1"

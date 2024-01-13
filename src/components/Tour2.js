@@ -16,6 +16,7 @@ export default function Tour2() {
             HẢI TRÌNH <span className="--second">SINGAPORE - MALAYSIA</span>
           </p>
           <p className="main --second">4 NGÀY 3 ĐÊM</p>
+          <p className="sup">1 đêm du thuyền - 1 đêm Singapore - 1 đêm Malaysia</p>
         </div>
         {/* <a className="btn">14,990,000 VNĐ</a> */}
       </div>

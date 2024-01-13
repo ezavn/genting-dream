@@ -24,7 +24,7 @@ export default function PopupTour1Day3() {
                 <div className="flex-shrink-0 w-[455px] md:block hidden h-full">
                   <img
                     className="object-cover w-full h-full"
-                    srcSet="/images/genting-tour1-3.png 4x"
+                    srcSet="/images/popup-tour2-3.png 4x"
                     alt=""
                   />
                 </div>

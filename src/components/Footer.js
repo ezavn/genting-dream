@@ -43,7 +43,7 @@ export default function Footer() {
               <a href="tel:0937196899">0937.19.68.99</a>
             </li>
             <li>
-              <span>Ms. Thịnh:</span> <a href="tel:0931867139">0931.867.139</a>
+              <span>Mr. Thịnh:</span> <a href="tel:0931867139">0931.867.139</a>
             </li>
           </ul>
         </div>

@@ -27,7 +27,7 @@ export default function Tour1() {
         <TourItem
           img="/images/tour1-2.png"
           day="NGÀY 2"
-          title="SINGAPORE – KUALA LUMPUR (MALAYSIA)"
+          title="SINGAPORE – CHECK IN GENTING DREAM"
           desc="(Ăn sáng, trưa & tối)"
           num="2"
           onClick={() => setShowTour1Day2(true)}
@@ -35,7 +35,7 @@ export default function Tour1() {
         <TourItem
           img="/images/tour2-3.png"
           day="NGÀY 3"
-          title="DU THUYỀN - SINGAPORE"
+          title="SINGAPORE – KUALA LUMPUR (MALAYSIA)"
           desc="(Ăn sáng, trưa & tối)"
           num="3"
           onClick={() => setShowTour1Day3(true)}
@@ -43,8 +43,8 @@ export default function Tour1() {
         <TourItem
           img="/images/tour1-3.png"
           day="NGÀY 4"
-          title="SINGAPORE - VIỆT NAM"
-          desc="(Ăn sáng & ăn trưa)"
+          title="DU THUYỀN - SINGAPORE - VIỆT NAM"
+          desc="(Ăn sáng)"
           num="4"
           onClick={() => setShowTour1Day4(true)}
         ></TourItem>
